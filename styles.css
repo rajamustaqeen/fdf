@@ -1,0 +1,132 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 80px; /* Adjust the size as needed */
+    margin-right: 20px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    color: #eee;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #d8bfd8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #d8bfd8;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h3 {
+    margin: 40px 0 20px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery figure {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.gallery figcaption {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+#demo  {
+    text-align: center;
+    margin: 40px 0;
+    
+}
+#contact {
+    text-align: center;
+    margin: 40px 0;
+}
+#about  {
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+#contact h2 {
+    color: #ffffff;
+}
+
+#contact a {
+    color: #928484;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #777;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #d8bfd8; /* Use the same purple theme color */
+    margin: 40px 0; /* Add some space around the line */
+}
